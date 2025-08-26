@@ -1,0 +1,24 @@
+{
+  "name": "tiptap-editor",
+  "version": "1.0.0",
+  "description": "A rich text editor built with Tiptap",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run start",
+    "start": "node server.js",
+    "build": "echo 'Build script here'",
+    "test": "echo 'Test script here'"
+  },
+  "keywords": [
+    "tiptap",
+    "editor",
+    "rich-text",
+    "prosemirror"
+  ],
+  "author": "ashwinkrishnamurthy",
+  "license": "MIT",
+  "dependencies": {
+    "@tiptap/core": "^2.0.0",
+    "@tiptap/starter-kit": "^2.0.0"
+  }
+}
